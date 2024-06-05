@@ -23,7 +23,7 @@ header{
    display: flex; 
 }
 .logo-sena{
-    width: 50px;
+    width: 60px;
     margin-right: 10px;
 }
 .container-projet{
@@ -53,9 +53,47 @@ header{
     border-radius: 20px;
     background-color: rgb(0, 202, 10);
 }
+.Referencias{
+    display: flex;
 
-
-
+}
+.container-referencias{
+    display: flex;
+    justify-content:space-around;
+}
+.Referencia1{
+    width: 30%;
+    border-color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 11px;
+    text-align: center;
+    background-color: aliceblue;
+    margin-left: 5px;
+    margin: 0rem 0rem 2rem;
+}
+.Referencia2{
+    width: 30%;
+    border-color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 11px;
+    text-align: center;
+    background-color: aliceblue;
+    margin-left: 5px;
+    margin: 0rem 0rem 2rem;
+}
+.Referencia3{
+    width: 30%;
+    border-color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 11px;
+    text-align: center;
+    background-color: aliceblue;
+    margin-left: 5px;
+    margin: 0rem 0rem 2rem;
+}
 hr{
 background-color: rgb(126, 247, 90);
 height: 9px;

@@ -94,6 +94,51 @@ header{
     margin-left: 5px;
     margin: 0rem 0rem 2rem;
 }
+.container-experiencia{
+    display: flex;
+    align-items: center;
+}
+.img-container{
+    position: relative;
+    margin-right: 20px;
+}
+.img-container-my{
+    width: 250%;
+    position: relative;
+    margin-left: 50px;
+
+}
+.img-container-xam{
+    position: relative;
+    margin-right: 50px;
+}
+.img-{
+    width:250%;
+}
+.img-css{
+ width: 180%;
+}
+.img-my{
+    width: 60%;
+}
+.img-jav{
+    width: 340%;
+}
+.img-xam{
+    width: 180%;
+}
+.progress-bar{
+    height: 10px;
+    background-color: aquamarine;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    transition: width 0.5s ease-in-out;
+}
+.img-:nth-child(1).progress-bar{
+width: 80%;
+}
 hr{
 background-color: rgb(126, 247, 90);
 height: 9px;

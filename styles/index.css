@@ -57,6 +57,7 @@ body{
 .Restaurant{
     display: flex;
     width: 35%;
+    margin-right: 10px;
     border-radius: 15px;
 }
 .proycto3{
@@ -69,6 +70,7 @@ body{
 .viaje{
     width: 35%;
     display: flex;
+    margin-right: 10px;
     border-radius: 15px;
 }
 .Referencias{
@@ -161,8 +163,8 @@ body{
 }
 
 .progress-html{
-    width: 250%;
-    margin-right: 10px;
+    width: 240%;
+    margin-right: 20px;
 }
 .progress-css{
     width: 190%;
@@ -179,4 +181,51 @@ background-color: rgb(126, 247, 90);
 height: 9px;
 width: 99%;
 border-radius: 5px;
+}
+@media screen and (min-width: 480px) and (max-width: 1040px) {
+    
+    .container-projet{
+        width: 70%;
+        position:relative;
+        left: 100px;
+        margin-right: 90px;
+        margin: 0rem 0rem 3rem ;
+        
+    }
+    .proycto1{
+        display: flex;
+        width:80%;
+        height: 100px;
+        border-radius: 20px;
+        background-color: rgb(0, 202, 10);
+        margin:0rem 0rem 2rem;
+    }
+    .proycto2{
+        display: flex;
+        width:80%;
+        height: 100px;
+        border-radius: 20px;
+        background-color: rgb(0, 202, 10);
+        margin:0rem 0rem 2rem;
+    }
+    .Restaurant{
+        display: flex;
+        width: 35%;
+        border-radius: 15px;
+    }
+    .proycto3{
+        display: flex;
+        width:80%;
+        height: 100px;
+        border-radius: 20px;
+        background-color: rgb(0, 202, 10);
+    }
+    .viaje{
+        width: 35%;
+        display: flex;
+        border-radius: 15px;
+    }
+    .img-css{
+        width: 240%;
+       }
 }

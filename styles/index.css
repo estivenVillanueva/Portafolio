@@ -27,8 +27,12 @@ body{
    display: flex; 
 }
 .logo-sena{
+    display: flex;
+    position: relative;
+    top: 10px;
     width: 60px;
-    margin-right: 10px;
+    height: 60px;
+   margin-right: 20px;
 }
 .container-projet{
     margin-left: 10px;
@@ -50,12 +54,22 @@ body{
     background-color: rgb(0, 202, 10);
     margin:0rem 0rem 2rem;
 }
+.Restaurant{
+    display: flex;
+    width: 35%;
+    border-radius: 15px;
+}
 .proycto3{
     display: flex;
     width:80%;
     height: 100px;
     border-radius: 20px;
     background-color: rgb(0, 202, 10);
+}
+.viaje{
+    width: 35%;
+    display: flex;
+    border-radius: 15px;
 }
 .Referencias{
     display: flex;
@@ -98,10 +112,24 @@ body{
     margin-left: 5px;
     margin: 0rem 0rem 2rem;
 }
+.experiencia{
+    display: flex;
+}
+.experiencias{
+    display: flex;
+    margin-left: 80px;
+}
+.logosena{
+    display: flex;
+    position: relative;
+    top: 65px;
+    width: 60px;
+}
 .container-experiencia{
     display: flex;
-   
+   align-items: center;
 }
+
 .img-container{
     position: relative;
     margin-right: 30px;

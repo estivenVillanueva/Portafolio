@@ -3,6 +3,7 @@ header{
     display: flex;
     justify-content: center;
     padding: 10px;
+    color: azure;
     margin: 0rem 0rem 2rem 0rem;
 }
 .header-container{
@@ -185,47 +186,148 @@ border-radius: 5px;
 @media screen and (min-width: 480px) and (max-width: 1040px) {
     
     .container-projet{
-        width: 70%;
-        position:relative;
-        left: 100px;
-        margin-right: 90px;
+        width: 100%;
+        flex-direction: column;
         margin: 0rem 0rem 3rem ;
-        
+        display: flex;
     }
     .proycto1{
         display: flex;
         width:80%;
-        height: 100px;
+        height: 200px;
+        flex: 1%;
         border-radius: 20px;
         background-color: rgb(0, 202, 10);
-        margin:0rem 0rem 2rem;
+        margin:0rem 0rem 1rem;
+    }
+    .atlas{
+        width: 40%;
     }
     .proycto2{
-        display: flex;
         width:80%;
-        height: 100px;
+        height: 200px;
+        flex: 1%;
         border-radius: 20px;
         background-color: rgb(0, 202, 10);
-        margin:0rem 0rem 2rem;
+        margin:0rem 0rem 1rem;
     }
     .Restaurant{
         display: flex;
-        width: 35%;
+        width: 50%;
         border-radius: 15px;
     }
     .proycto3{
-        display: flex;
+
         width:80%;
-        height: 100px;
+        height: 200px;
         border-radius: 20px;
         background-color: rgb(0, 202, 10);
     }
     .viaje{
-        width: 35%;
+        width: 50%;
         display: flex;
         border-radius: 15px;
     }
     .img-css{
         width: 240%;
        }
+}
+
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+    .container-projet{
+        width: 98%;
+        margin-left: 20px;
+        margin: 1rem 0rem 3rem ;
+    }
+    .proycto1{
+        display: flex;
+        width:100%;
+        height: 200px;
+        border-radius: 20px;
+        background-color: rgb(0, 202, 10);
+        margin-right: 50px;
+        margin:1rem 0rem 1rem;
+    }
+    .atlas{
+        width: 40%;
+    }
+    .proycto2{
+        width:98%;
+        height: 200px;
+        border-radius: 20px;
+        background-color: rgb(0, 202, 10);
+        margin:1rem 0rem 1rem;
+    }
+    .Restaurant{
+        display: flex;
+        width: 50%;
+        border-radius: 15px;
+    }
+    .proycto3{
+        width:98%;
+        height: 200px;
+        border-radius: 20px;
+        background-color: rgb(0, 202, 10);
+        margin: 1rem 0rem 1rem;
+    }
+    .viaje{
+        width: 50%;
+        display: flex;
+        border-radius: 15px;
+    }
+    .img-css{
+        width: 240%;
+    }
+    .container-experiencia{
+        display: flex;
+       align-items: center;
+    }
+    
+    .img-container{
+        position: relative;
+        margin-right: 30px;
+    }
+    .img-container-my{
+        width: 155%;
+        position: relative;
+        margin-left: 140px;
+    
+    }
+    .img-container-html{
+        width: 145%;
+    }
+    .img-container-jav{
+        width: 45%;
+        margin-left: 90px;
+    }
+    .img-{
+        width:100%;
+    }
+    .img-css{
+     width: 200%;
+    }
+    .img-my{
+        width: 50%;
+    }
+    .img-jav{
+        width: 320%;
+    }
+    
+    .progress-html{
+        width: 240%;
+        margin-right: 20px;
+    }
+    .progress-css{
+        width: 190%;
+        margin-right: 10px;
+    }
+    .progresshtml{
+        width: 80%;
+    }
+    .progress{
+        width: 70%;
+    }
+}
+@media screen and (min-width:1559px ) and (max-width: 975px) {
+   
 }

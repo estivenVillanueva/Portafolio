@@ -144,6 +144,8 @@ justify-content: center;
 .container-experiencia{
     display: flex;
    align-items: center;
+   position: relative;
+   left: 15px;
 }
 
 .img-container{

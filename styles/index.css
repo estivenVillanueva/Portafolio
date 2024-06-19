@@ -11,11 +11,16 @@ header{
     align-items: center;
 }
 .header-img{
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 10px;
     font-family:fantasy;
+}
+.img-estiven{
+    width: 70%;
+    border-radius: 150px;
 }
 .header-text{
    display: block;
@@ -328,6 +333,209 @@ border-radius: 5px;
         width: 70%;
     }
 }
-@media screen and (min-width:1559px ) and (max-width: 975px) {
-   
+@media screen and (min-width: 1558px) and (max-width:3075px){
+    header{
+        background-color: rgb(13, 240, 70);
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        color: azure;
+        margin: 0rem 0rem 2rem 0rem;
+    }
+    .header-container{
+        display: flex;
+        align-items: center;
+    }
+    .header-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 10px;
+        font-family:fantasy;
+    }
+    .header-text{
+       display: block;
+       text-align: left;
+    }
+    body{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .projet{
+       display: flex; 
+    }
+    .logo-sena{
+        display: flex;
+        position: relative;
+        top: 10px;
+        width: 60px;
+        height: 60px;
+       margin-right: 20px;
+    }
+    .container-projet{
+        margin-left: 15px;
+        position: relative;
+        left: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0rem 0rem 3rem ;
+    }
+    .proycto1{
+        display: flex;
+        width:105%;
+        height: 250px;
+        border-radius: 20px;
+        background-color: rgb(0, 202, 10);
+        margin:0rem 0rem 2rem;
+    }
+    .proycto2{
+        display: flex;
+        width:80%;
+        height: 250px;
+        border-radius: 20px;
+        background-color: rgb(0, 202, 10);
+        position: relative;
+        left: 40px;
+        margin:0rem 2rem 2rem;
+    }
+    .Restaurant{
+        display: flex;
+        width: 35%;
+        margin-right: 10px;
+        border-radius: 15px;
+    }
+    .proycto3{
+        display: flex;
+        width:80%;
+        height: 250px;
+        border-radius: 20px;
+        background-color: rgb(0, 202, 10);
+        margin:0rem 2rem 2rem;
+    }
+    .viaje{
+        width: 35%;
+        display: flex;
+        margin-right: 10px;
+        border-radius: 15px;
+    }
+    .Referencias{
+        display: flex;
+    
+    }
+    .container-referencias{
+        display: flex;
+        justify-content:center;
+    }
+    .Referencia1{
+        width: 20%;
+        border-color: black;
+        border: 1px solid;
+        border-radius: 10px;
+        font-size: 11px;
+        text-align: center;
+        background-color: aliceblue;
+        margin-left: 5px;
+        margin: 0rem 0rem 2rem;
+    }
+    .Referencia2{
+        width: 20%;
+        border-color: black;
+        border: 1px solid;
+        border-radius: 10px;
+        font-size: 11px;
+        text-align: center;
+        background-color: aliceblue;
+        margin-left: 5px;
+        margin: 0rem 4rem 2rem;
+    }
+    .Referencia3{
+        width: 20%;
+        border-color: black;
+        border: 1px solid;
+        border-radius: 10px;
+        font-size: 11px;
+        text-align: center;
+        background-color: aliceblue;
+        margin-left: 5px;
+        margin: 0rem 0rem 2rem;
+    }
+    .experiencia{
+        display: flex;
+    }
+    .experiencias{
+        display: flex;
+        margin-left: 80px;
+    }
+    .logosena{
+        display: flex;
+        position: relative;
+        top: 65px;
+        width: 60px;
+    }
+    .container-experiencia{
+       display: flex;
+       align-items: center;
+       position: relative;
+       left: 40px;
+    }
+    
+    .img-container{
+        position: relative;
+        margin-right: 30px;
+    }
+    .img-container-my{
+        width: 57%;
+        position: relative;
+        margin-left: 200px;
+    
+    }
+    .img-container-html{
+        width:70%;
+    }
+    .img-container-jav{
+        width: 16%;
+        margin-left: 140px;
+        position: relative;
+        right: 60px;
+    }
+    .img-{
+        width:73%;
+    }
+    .img-css{
+     width: 140%;
+     position: relative;
+     right: 70px;
+    }
+    .img-my{
+        width: 50%;
+    }
+    .img-jav{
+        position: relative;
+        right: 40px;
+        width: 320%;
+    }
+    
+    .progress-html{
+        width: 240%;
+        margin-right: 20px;
+    }
+    .progress-css{
+        width: 130%;
+        position: relative;
+        right: 60px;
+        margin-right: 10px;
+    }
+    .progresshtml{
+        width: 60%;
+        position: relative;
+        left: 30px;
+    }
+    .progress{
+        width: 70%;
+    }
+    hr{
+    background-color: rgb(126, 247, 90);
+    height: 9px;
+    width: 99%;
+    border-radius: 5px;
+    }
 }
